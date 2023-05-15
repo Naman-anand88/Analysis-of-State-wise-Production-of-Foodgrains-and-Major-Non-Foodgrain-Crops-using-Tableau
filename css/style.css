@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.logo img {
+    width: 40%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.Dropdown1{
+    display: none;
+}
+.nav-list li:hover .Dropdown1
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 25px;
+    color: white;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images used/Agrilculture.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 170vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 60%;
+    height: 80%;
+    margin: auto;
+}
+.Intro{
+    padding-top: 120px;
+}
+.Main-headings
+{
+    padding-top: 20px;
+}
+.big-text {
+    font-size: 40px;
+}
+
+.small-text {
+    font-size: 24px;
+}
+
+.RightSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.LeftSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+    padding: 60px 0px;
+}
+.Image2{
+    padding: 0 22px;
+}
+
+.Para2{
+    padding: 0 60px;
+}
+
+.burgermenu{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}

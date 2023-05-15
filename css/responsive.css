@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Dropdown1{
+        display: none;
+    }
+    .nav-list li:hover .Dropdown1 ul
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
+    .navbar{
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .logo {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        width: 40%;
+        border: 5px solid white;
+        border-radius: 50px;
+    }
+    .burgermenu{
+        display: block;
+    }
+    .h-nav{
+        height: 70px;
+    }
+    .vclass{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .big-text{
+        text-align: center;
+    }
+    .small-text{
+        text-align: center;
+    }
+
+}
